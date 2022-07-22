@@ -86,6 +86,15 @@ header{
  .imagenPerfil{
     width: 50%;
     height: auto;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+  }
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    100%  {left:200px; top:0px;}
+
 }
 
  /*BLOQUE 02*/
@@ -99,28 +108,58 @@ header{
 
 .bloque02-imgA{
    grid-area: bloque02-imgA;
+   width: auto;
+   height: auto;
+   transition: width 2s, height 2s, transform 2s;
 }
+.bloque02-imgA :hover{
+    width: 300px;
+    height: auto;
+    transform: rotate(360deg)
+ }
+
 .bloque02-imgB{
     grid-area: bloque02-imgB;
+    width: auto;
+    height: auto;
+    transition: width 2s, height 2s, transform 2s;
  }
+ .bloque02-imgB :hover{
+    width: 300px;
+    height: auto;
+    transform: rotate(360deg)
+ }
+
  .bloque02-imgC{
     grid-area: bloque02-imgC;
+    width: auto;
+    height: auto;
+    transition: width 2s, height 2s, transform 2s;
+ }
+ .bloque02-imgC :hover{
+    width: 400px;
+    height: auto;
+    transform: rotate(360deg)
  }
 
   /*BLOQUE 03*/
 
  .bloque03{
     grid-area: bloque03;
+    width: 100%;
+    height: auto;
  }
 
   /*BLOQUE 04*/
 
  .bloque04-imgA{
     grid-area: bloque04-imgA;
- }
+ } 
+
  .bloque04-imgB{
     grid-area: bloque04-imgB;
  }
+
  .bloque04-imgC{
     grid-area: bloque04-imgC;
  }
@@ -140,7 +179,6 @@ header{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
-
 }
 
 
@@ -351,4 +389,5 @@ footer{
         justify-content: center;
         align-items: center;
     }
+
 }
