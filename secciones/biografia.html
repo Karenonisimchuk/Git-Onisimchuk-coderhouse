@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Biografía</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -12,71 +13,108 @@
 </head>
 
 <body>
-    <!-- inicio contenedor padre  -->
-	<div class="container">
-    <header>
-      <div class="logo">
+
+  <header >
+    <!-- INICIO MENÚ BOOTSTRAP-->
+  <nav class="navbar navbar-expand-lg navbar-light fondomenu">
+    <div class="container-fluid ">
+      <a class="navbar-brand">
         <img src="../img/LOGO_48.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flexmenu" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../secciones/biografia.html">BIOGRAFÍA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../secciones/blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../secciones/porfolio.html">PORFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../secciones/contacto.html">CONTACTO</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+  </header>
+  <!-- FIN MENÚ BOOTSTRAP-->
+ 
+  <!-- BLOQUE 01-->
+  <section>
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <img class="imagenPerfil w-50" src="../img/ONISIMCHUK prueba 01.jpg" alt="foto persona">
+      </div>
+      <div class="col-lg-6 col-md-8">
+        <p class="textoNormal"> Mi nombre es Karen Onisimchuk, soy egresa de la carrera Lic. en Diseño Gráfico de la
+          Universidad Siglo 21. La metodología aplicada en la institución me ha permitido desarrollar mi formación
+          profesional, he potenciado mi espíritu de trabajo en equipo, iniciativa e implicación en los objetivos.</p>
+      </div>
+    </div>
+  </select>
 
-     <nav class="menuHeader">
-           <ul>
-               <li> 
-                   <a href="../index.html">INICIO</a>
-               </li>
-               <li> 
-                   <a href="biografia.html">BIOGRAFÍA</a>
-               </li>
-               <li> 
-                   <a href="porfolio.html">PORFOLIO</a>
-               </li>
-               <li> 
-                   <a href="blog.html">BLOG</a>
-               </li>
-               <li> 
-                   <a href="contacto.html">CONTACTO</a>
-               </li>
-              
-           </ul>
-        </nav>
-        <!-- fin nav -->
-    </header>
-    <!-- fin header  -->
+  <!-- BLOQUE 02-->
+
+  <section>
+    <div class="row">
+     <img class="imagenes" src="../img/BANNERIMG.png" alt="banner referencia a Blog">
+    </div>
+  </section>
+
+  <!-- BLOQUE 03-->
+
+  <section>
+    <div class="row w-50">
+      <div class="col-lg-4 col-md-4">
+        <img class="imagenes" src="../img/ImagCirculo_Mesa de trabajo 1.png" alt="Proyecto final tesis">
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <img class="imagenes" src="../img/ImagCirculo_Mesa de trabajo 1.png" alt="Diseño Editorial">
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <img class="imagenes" src="../img/ImagCirculo_Mesa de trabajo 1.png" alt="Diseño Identidad Visual">
+      </div>
+    </div>
+  </select>
+
+  <section>
+    <div class="row w-50 ">
+      <div class="col-lg-4 col-md-4">
+        <img class="imagenes" src="../img/ImagCirculo_Mesa de trabajo 1.png" alt="Proyecto final tesis">
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <img class="imagenes" src="../img/ImagCirculo_Mesa de trabajo 1.png" alt="Diseño Editorial">
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <img class="imagenes" src="../img/ImagCirculo_Mesa de trabajo 1.png" alt="Diseño Identidad Visual">
+      </div>
+    </div>
+  </select>
+
+  <!-- BLOQUE 04-->
+
+  <section>
+    <div class="row">
+      <div class="col-lg-8 col-md-6">
+        <p class="textoNormal"> Mi nombre es Karen Onisimchuk, soy egresa de la carrera Lic. en Diseño Gráfico de la
+          Universidad Siglo 21. La metodología aplicada en la institución me ha permitido desarrollar mi formación
+          profesional, he potenciado mi espíritu de trabajo en equipo, iniciativa e implicación en los objetivos.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <img class="imagenes w-50" src="../img/imagCuadrado_Mesa de trabajo 1.png" alt="foto persona">
+      </div>
+    </div>
+  </select>
    
-      <!-- inicio bloque 01 -->
-      <section>
-        <h2 class="nombreApellido">KAREN ONISIMCHUK</h2>
-        <p class="textoNormal"> Mi nombre es Karen Onisimchuk, soy egresa de la carrera Lic. en Diseño Gráfico de la Universidad Siglo 21. La metodología aplicada en la institución me ha permitido desarrollar mi formación profesional, he potenciado mi espíritu de trabajo en equipo, iniciativa e implicación en los objetivos.</p>
-        <img class="imagenPerfil" src="../img/ONISIMCHUK prueba 01.jpg" alt="foto persona">
-    </section>
-      <!-- fin bloque 01 -->
-
-      <!-- Inicio bloque 02 -->
-    <section>
-        <img class="imagenes" src="../img/BANNERIMG.png" alt="Trabajos más importantes">
-    </section>
-     <!-- fin bloque 02 -->
-
-      <!-- Inicio bloque 03 -->
-    <div>
-      <section>
-        <img src="../img/ImagCirculo_Mesa de trabajo 1.png" alt="Icono de programas">
-        <img src="../img/ImagCirculo_Mesa de trabajo 1.png" alt="Icono de programas">
-        <img src="../img/ImagCirculo_Mesa de trabajo 1.png" alt="Icono de programas">
-      </section>
-    </div>
-      <!-- fin bloque 03 -->
-
-    <!-- inicio bloque 04 -->
-    <div class="padre-flex">
-        <div class="row">
-            <h2 class="subtitulos">KAREN ONISIMCHUK</h2>
-            <p class="textoNormal"> Mi nombre es Karen Onisimchuk, soy egresa de la carrera Lic. en Diseño Gráfico de la Universidad Siglo 21. La metodología aplicada en la institución me ha permitido desarrollar mi formación profesional, he potenciado mi espíritu de trabajo en equipo, iniciativa e implicación en los objetivos.</p>
-            <img src="../img/imagCuadrado_Mesa de trabajo 1.png" alt="foto persona">
-        </div>
-    </div>
-    <!-- fin bloque 04 -->
-    
     <!-- inicio footer -->
       <!-- Agregue iconos de redes sociales con Flexbox -->
       <footer id="pie">
@@ -98,6 +136,7 @@
 
     </footer>
     <!-- fin footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
 </body>
 

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <title>Inicio</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,81 +17,101 @@
 
 <body>
 
-
-
-  <header>
-    <div class="logo">
-      <img src="./img/LOGO_48.png" alt="logo">
+  <header >
+    <!-- INICIO MENÚ BOOTSTRAP-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <img src="./img/LOGO_48.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flexmenu" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./secciones/biografia.html">BIOGRAFÍA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./secciones/blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./secciones/porfolio.html">PORFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./secciones/contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <nav class="menuHeader">
-      <ul>
-        <li>
-          <a href="index.html">INICIO</a>
-        </li>
-        <li>
-          <a href="./secciones/biografia.html">BIOGRAFÍA</a>
-        </li>
-        <li>
-          <a href="./secciones/porfolio.html">PORFOLIO</a>
-        </li>
-        <li>
-          <a href="./secciones/blog.html">BLOG</a>
-        </li>
-        <li>
-          <a href="./secciones/contacto.html">CONTACTO</a>
-        </li>
-        <!-- <li> 
-                <a href="https://www.coderhouse.com/" target="_blank">CODERHOUSE</a>
-            </li>
-             
-            <li class="navFlex__item7">
-                <a href="#pie">PIE DE PÁGINA</a>
-            </li> -->
-
-      </ul>
-    </nav>
-
+  </nav>
   </header>
+  <!-- FIN MENÚ BOOTSTRAP-->
 
-  <!-- Inicio grid Area  -->
-  <div class="grillabloques">
-    <div class="bloque01">
-      <h2 class="nombreApellido">KAREN ONISIMCHUK</h2>
-      <p class="primerTexto"> Mi nombre es Karen Onisimchuk, soy egresa de la carrera Lic. en Diseño Gráfico de la
-        Universidad Siglo 21. La metodología aplicada en la institución me ha permitido desarrollar mi formación
-        profesional, he potenciado mi espíritu de trabajo en equipo, iniciativa e implicación en los objetivos.</p>
-      <img class="imagenPerfil" src="./img/ONISIMCHUK prueba 01.jpg" alt="foto persona">
+  <!-- Inicio Gryd system-->
+  <!-- BLOQUE 01-->
+  <section>
+    <h1 class="display-3 text-center mt-3">Karen Onisimchuk</h1>
+    <div class="row">
+      <div class="col-lg-6 col-md-8">
+        <p class="tercerTexto"> Mi nombre es Karen Onisimchuk, soy egresa de la carrera Lic. en Diseño Gráfico de la
+          Universidad Siglo 21. La metodología aplicada en la institución me ha permitido desarrollar mi formación
+          profesional, he potenciado mi espíritu de trabajo en equipo, iniciativa e implicación en los objetivos.</p>
+      </div>
+      <div class="col-lg-6 col-md-4">
+        <img class="imagenPerfil" src="./img/ONISIMCHUK prueba 01.jpg" alt="foto persona">
+      </div>
     </div>
-   
-    <div class="bloque02-imgA estiloBloque">
-      <img class="imagenes" src="./img/BLOQ1SIGLO-01.png" alt="LOGO SIGLO21">
-      <p class="estudios"> Licenciada en Diseño Gráfico </p>
-    </div>
-    <div class="bloque02-imgB estiloBloque">
-      <img class="imagenes" src="./img/BLOQ1PLATZI-01.png" alt="LOGO PLATZI">
-      <p class="estudios"> Diseñadora UX/UI </p>
-    </div>
-    <div class="bloque02-imgC estiloBloque">
-      <img class="imagenes" src="./img/BLOQ01CODER-01.png" alt="LOGO CODERHOUSE">
-      <p class="estudios"> Desarrollo Web </p>
-    </div>
+  </select>
 
-    <section class="bloque03">
-      <img class="imagenes" src="./img/BANNERIMG.png" alt="banner referencia a Blog">
+  <!-- BLOQUE 02-->
+
+  <section>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 w-25">
+        <img class="imagenes" src="./img/BLOQ1SIGLO-01.png" alt="LOGO SIGLO21">
+        <p class="estudios"> Licenciada en Diseño Gráfico </p>
+      </div>
+      <div class="col-lg-4 col-md-4 w-25">
+        <img class="imagenes" src="./img/BLOQ1PLATZI-01.png" alt="LOGO PLATZI">
+        <p class="estudios"> Diseñadora UX/UI </p>
+      </div>
+      <div class="col-lg-4 col-md-4 w-25">
+        <img class="imagenes" src="./img/BLOQ01CODER-01.png" alt="LOGO CODERHOUSE">
+        <p class="estudios"> Desarrollo Web </p>
+      </div>
+    </div>
+  </select>
+
+  <!-- BLOQUE 03-->
+    <section>
+      <div class="row">
+       <img class="imagenes" src="./img/BANNERIMG.png" alt="banner referencia a Blog">
+      </div>
     </section>
 
-    <div class="bloque04-imgA">
-      <img class="imagenes" src="./img/imagCuadrado_Mesa de trabajo 1.png" alt="Proyecto final tesis">
-    </div>
-    <div class="bloque04-imgB">
-      <img class="imagenes" src="./img/imagCuadrado_Mesa de trabajo 1.png" alt="Diseño Editorial">
-    </div>
-    <div class="bloque04-imgC">
-      <img class="imagenes" src="./img/imagCuadrado_Mesa de trabajo 1.png" alt="Diseño Identidad Visual">
-    </div>
+  <!-- BLOQUE 04-->
 
-    <section class="bloque05">
+  <section>
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <img class="imagenes" src="./img/imagCuadrado_Mesa de trabajo 1.png" alt="Proyecto final tesis">
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <img class="imagenes" src="./img/imagCuadrado_Mesa de trabajo 1.png" alt="Diseño Editorial">
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <img class="imagenes" src="./img/imagCuadrado_Mesa de trabajo 1.png" alt="Diseño Identidad Visual">
+      </div>
+    </div>
+  </select>
+
+
+  <!-- BLOQUE 05-->
+    <section>
       <p class="segundoTexto"> Encuentro inspiración y motivación en actividades como la identificación de enfoques
         mejorados y soluciones optimizadas para los desafíos empresariales. Mi idea del éxito se fundamenta en la
         exploración, la búsqueda y la motivación. Creo que añadir nuevas perspectivas y probar nuevas técnicas ayudan en
@@ -120,6 +141,7 @@
     </div>
 
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
