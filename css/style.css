@@ -39,7 +39,40 @@ body{
     margin-left: 30px;
  }
 
+.contactoMargen{
+    margin-left: 150px;
+ }
 
+.bloqueCentro{
+    justify-content: center;
+ }
+
+.magenesCont{
+    width: 500px;
+    margin: auto;
+}
+
+.conteinerBlog{
+    margin-top: 60px;
+}
+
+.conteinerBio{
+    margin-top: 60px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 40px;
+}
+
+/*Estilos imagenes*/
+
+.imagenes{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*Estilos imagenes animaciones*/
 .imagenPerfil{
     width: 50%;
     height: auto;
@@ -51,32 +84,97 @@ body{
   }
   @keyframes example {
     0%   {left:0px; top:0px;}
-    100%  {left:200px; top:0px;}
+    100%  {left:300px; top:0px;}
 
 }
 
-.imagenes{
-    width: 100%;
-    height: auto;
-}
 
+.container {
+    position: relative;
+    width: auto;
+  }
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #7D5A50;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+.container:hover .overlay {
+    width: auto;
+  }
+  
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    }
+
+    .estiloBloque{
+        
+        justify-content: center;
+        align-items: center;
+     }
+    
+    
+    .bloque02-imgA{
+       width: auto;
+       height: auto;
+       transition: width 2s, height 2s, transform 2s;
+       text-align: center;
+    }
+    .bloque02-imgA :hover{
+        width: 300px;
+        height: auto;
+        text-align: center;
+        transform: rotate(360deg)
+     }
+    
+    .bloque02-imgB{
+        width: auto;
+        height: auto;
+        transition: width 2s, height 2s, transform 2s;
+        text-align: center;
+     }
+     .bloque02-imgB :hover{
+        width: 300px;
+        height: auto;
+        text-align: center;
+        transform: rotate(360deg)
+        
+     }
+    
+     .bloque02-imgC{
+        width: auto;
+        height: auto;
+        transition: width 2s, height 2s, transform 2s;
+        text-align: center;
+     }
+     .bloque02-imgC :hover{
+        width: 300px;
+        text-align: center;
+        height: auto;
+        transform: rotate(360deg)
+     }
+
+/*Estilos textos*/
 .estudios{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #7D5A50;
 }
-
-
-.imagenes{
-    width: 100%;
-    height: auto;
-}
-
-.magenesCont{
-    width: 100%;
-    height: auto;
-}
-
 
 .segundoTexto{
     text-align: center;
@@ -112,6 +210,17 @@ body{
     margin: 80px 40px 80px 40px;
 	text-align: center;
 }
+
+/*botones*/
+.button1 {
+    background-color: white;
+    color: black;
+  }
+  
+  .button1:hover {
+    background-color: #555555;
+    color: white;
+  }
 
 
 /*Estilos footer*/
