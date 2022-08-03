@@ -1,0 +1,40 @@
+.estudios{
+    text-align: center;
+    font-family: $tipografia01;
+    color: $color-principal01;
+}
+
+.segundoTexto{
+    text-align: center;
+    font-family: $tipografia01;
+    color: rgb(255, 255, 255);
+    background-color: $color-principal02;
+    margin: 80px 40px 80px 40px;
+}
+
+
+.tercerTexto{
+    color: black;
+    font-family: $tipografia01;
+    text-align: center;
+    padding: 40px;
+    border: 10px solid rgb(238, 180, 144);
+    margin: 80px 40px 80px 40px;
+}
+
+
+.textoNormal{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 80px 40px 80px 40px;
+}
+
+.subtitulos{
+    color: $color-principal02;
+    font-family:$tipografia02;
+	font-size: 30px;
+    padding: 40px;
+    margin: 80px 40px 80px 40px;
+	text-align: center;
+}

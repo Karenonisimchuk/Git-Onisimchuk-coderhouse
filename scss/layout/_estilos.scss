@@ -1,0 +1,37 @@
+.fondomenu{
+    background-color: $color-principal01;
+    
+    .flexmenu{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.contactoMargen{
+    margin-left: 150px;
+ }
+
+.bloqueCentro{
+    justify-content: center;
+ }
+
+.magenesCont{
+    width: 500px;
+    margin: auto;
+}
+
+.conteinerBlog{
+    margin-top: 60px;
+}
+
+.conteinerBio{
+    margin-top: 60px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 40px;
+}
+
+.estiloBloque{   
+    justify-content: center;
+    align-items: center;
+ }
