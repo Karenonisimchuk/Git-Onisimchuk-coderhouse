@@ -18,7 +18,7 @@
 .container {
     position: relative;
     width: auto;
-  
+}
   
       .overlay {
          position: absolute;
@@ -35,7 +35,7 @@
          .container:hover .overlay {
             width: auto;
          }
-}
+
    
 .text {
     white-space: nowrap; 
@@ -48,45 +48,33 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
    
-    
+   } 
     
     .bloque02-imgA{
-       width: auto;
-       height: auto;
+       @extend img01;
        transition: width 2s, height 2s, transform 2s;
        text-align: center;
       }
          .bloque02-imgA :hover{
-            width: 300px;
-            height: auto;
-            text-align: center;
-            transform: rotate(360deg)
+            @extend img02;
          }
     
       .bloque02-imgB{
-        width: auto;
-        height: auto;
+        @extend img01;
         transition: width 2s, height 2s, transform 2s;
         text-align: center;
       }
          .bloque02-imgB :hover{
-            width: 300px;
-            height: auto;
-            text-align: center;
-            transform: rotate(360deg)
+            @extend img02;
             
          }
     
       .bloque02-imgC{
-        width: auto;
-        height: auto;
+        @extend img01;
         transition: width 2s, height 2s, transform 2s;
         text-align: center;
       }
          .bloque02-imgC :hover{
-            width: 300px;
-            text-align: center;
-            height: auto;
-            transform: rotate(360deg)
+            @extend img02;
          }
-   }
+

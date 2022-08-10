@@ -8,7 +8,8 @@
 }
 
 .contactoMargen{
-    margin-left: 150px;
+    @include medidas (none, 150px, none, none)
+
  }
 
 .bloqueCentro{
@@ -21,14 +22,12 @@
 }
 
 .conteinerBlog{
-    margin-top: 60px;
+    @include medidas (60px, none, none, none)
+
 }
 
 .conteinerBio{
-    margin-top: 60px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 40px;
+    @include medidas (60px, 250px, 250px, 40px);
 }
 
 .estiloBloque{   
