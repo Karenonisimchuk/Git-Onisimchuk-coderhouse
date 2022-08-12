@@ -28,7 +28,7 @@ body {
 .fondomenu {
   background-color: #7D5A50;
 }
-.fondomenu .flexmenu {
+.flexmenu {
   display: flex;
   justify-content: center;
 }
