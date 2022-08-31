@@ -50,31 +50,49 @@
 
       <!-- INICIO BLOQUE-->
       <section>
-        <div class="row contactoMargen">
-         <img class="imagenPerfil w-25" src="../img/logo K_conta.png" alt="Logok">
+        <div class="contactoMargen">
+            <img class="imagenPerfil w-25" src="../img/logo K_conta.png" alt="Logok">
         </div>
       </section>
 
-    <div class="container">
-      <form action="/action_page.php">
-        <label for="fname">Nombre y apellido</label>
-        <input type="text" id="fname" name="firstname" placeholder="Karen Onisimchuk">
+      <section>
+        <div class="magenesCont"> 
 
-        <label for="lname">Empresa</label>
-        <input type="text" id="lname" name="lastname" placeholder="Wineem">
+          <div class="mb-3">
+            <label for="nombrelInput" class="form-label">Nombre y apellido</label>
+            <input type="email" class="form-control" id="nombrelInput" placeholder="Karen Onisimchuk">
+          </div>
 
-        <label for="country">País</label>
-        <select id="country" name="country">
-          <option value="australia">Argentina</option>
-          <option value="canada">EEUU</option>
-          <option value="usa">Mexico</option>
-        </select>
+          <div class="mb-3">
+            <label for="empresaInput" class="form-label">Empresa</label>
+            <input type="email" class="form-control" id="empresaInput" placeholder="Wineem" >
+          </div>
 
-        <label for="subject">Propuesta</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Email</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="karenonisimchuk@gmail.com">
+          </div>
 
-        <input type="submit" value="Enviar">
-      </form>
+          <div class="mb-3">
+            <label for="paisInput" class="form-label">Pais</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected></option>
+              <option value="1">Argentina</option>
+              <option value="2">EEUU</option>
+              <option value="3">Mexico</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="propuestaTextarea1" class="form-label">Propuesta</label>
+            <textarea class="form-control" id="propuestaTextarea1" rows="3" placeholder="Escribe algo.." ></textarea>
+          </div>
+
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-light" type="button">Enviar</button>
+          </div>
+        </div>
+      </select>
     </div>
     <!-- FIN BLOQUE-->
 
@@ -84,17 +102,20 @@
         <h2 class="piedePag">PIE DE PÁGINA</h2>
         <div class="flexContainerFooter">
           <div>
-            <img class="imagenRedes" src="../img/REDES-IN_Mesa de trabajo 1.png" alt="Linkeding">
-            <a href="https://www.linkedin.com/in/karen-onisimchuk-b0551617b/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/karen-onisimchuk-b0551617b/" target="_blank">
+              <img class="imagenRedes" src="../img/REDES-IN_Mesa de trabajo 1.png" alt="Linkeding">
+            </a>
           </div>
           <div>
-            <img class="imagenRedes" src="../img/REDES-BE_Mesa de trabajo 1.png" alt="Behance">
-            <a href="https://www.behance.net/karenonisi43dc" target="_blank"></a>
+            <a href="https://www.behance.net/karenonisi43dc" target="_blank">
+              <img class="imagenRedes" src="../img/REDES-BE_Mesa de trabajo 1.png" alt="Behance">
+            </a>
           </div>
           <div>
-            <img class="imagenRedes" src="../img/REDES-GIT_Mesa de trabajo 1.png" alt="GitHub">
-            <a href="https://github.com/Karenonisimchuk" target="_blank"></a>
-          </div>  
+            <a href="https://github.com/Karenonisimchuk" target="_blank">
+              <img class="imagenRedes" src="../img/REDES-GIT_Mesa de trabajo 1.png" alt="GitHub" href="https://github.com/Karenonisimchuk">
+            </a>
+          </div>
         </div>
 
     </footer>
